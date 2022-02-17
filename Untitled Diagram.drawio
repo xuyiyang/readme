@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T13:13:08.983Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="hdds7d7aFlKGAFaaHbZU" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T02:46:31.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="HeOov1vgkncae0VF9h9M" version="16.5.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1298" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KgOzRK0zYqrNxTZlivyG-96" value="1.预占直播仓的IPM负卖库存&lt;br&gt;14.占用发货仓的AIC可售库存，同时AIC同步IPM，IPM进行换占&lt;br&gt;8、9、10.负卖结束后，捞取直播仓的缺货履约单，根据业务提供的发货仓，结合sdp的仓路由决策，决策出每个履约单的发货仓库，根据发货仓库和品的数量汇总出每个发货仓库的补货量，通知采购小二&lt;br&gt;12、13.货物实际入库之后，需要马上通知行业技术执行换仓，行业技术将履约单和发货仓导入系统，订正履约单信息后，重新调度履约单&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="950" width="400" height="170" as="geometry" />
+          <mxGeometry x="970" y="460" width="400" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
