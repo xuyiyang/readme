@@ -1,1 +1,206 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T08:22:53.486Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.5.0" etag="Mv4N5XeC6fhBfawZXev8" type="github"><diagram id="D1l39VGiyu2gUt8rarQd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-29T14:30:00.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1bKmV8n0cYQSBYicmwsl" version="17.5.0" type="github">
+  <diagram id="D1l39VGiyu2gUt8rarQd" name="Page-1">
+    <mxGraphModel dx="1298" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_wpr7LtND1S2UV123SpX-5" value="猫超换仓bundle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="100" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-5">
+          <mxGeometry x="45" y="70" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-5">
+          <mxGeometry x="45" y="141" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-21" value="审批换仓" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startFill=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-5" target="_wpr7LtND1S2UV123SpX-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-115" y="141" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-23" value="审批换仓" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startFill=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-5" target="_wpr7LtND1S2UV123SpX-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-115" y="214" as="sourcePoint" />
+            <mxPoint x="45" y="214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-5">
+          <mxGeometry x="44" y="203" width="10" height="717" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-31" value="触发执行换仓" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="200" />
+              <mxPoint x="75" y="223" />
+            </Array>
+            <mxPoint x="54" y="223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-5">
+          <mxGeometry x="49" y="320" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-37" value="前置履约单校验" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="_wpr7LtND1S2UV123SpX-36" parent="_wpr7LtND1S2UV123SpX-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-6" value="小二" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-7" value="履约" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="100" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-7">
+          <mxGeometry x="45" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-7">
+          <mxGeometry x="45" y="540" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-50" value="有随箱礼的单据关闭随箱礼明细" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-7" target="_wpr7LtND1S2UV123SpX-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-51" value="返回明细关闭结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-7" source="_wpr7LtND1S2UV123SpX-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-161" y="578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-7">
+          <mxGeometry x="45" y="680" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-56" value="订正履约单仓库和状态" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-7" target="_wpr7LtND1S2UV123SpX-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-57" value="返回订正结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-7" source="_wpr7LtND1S2UV123SpX-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-161" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-7">
+          <mxGeometry x="45" y="760" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-60" value="分仓路由" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-7" target="_wpr7LtND1S2UV123SpX-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-61" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-7" source="_wpr7LtND1S2UV123SpX-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-161" y="798" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-7">
+          <mxGeometry x="45" y="840" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-63" value="调度履约单" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-7" target="_wpr7LtND1S2UV123SpX-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-64" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-7" source="_wpr7LtND1S2UV123SpX-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-161" y="878" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-8" value="AIC" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="180" width="100" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-8">
+          <mxGeometry x="45" y="430" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-8">
+          <mxGeometry x="45" y="610" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-9" value="IPM" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="180" width="100" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-10" value="物流小二" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="301" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-12" value="供应链小二" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="374" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-15" value="提交换仓申请" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startFill=0;" edge="1" target="_wpr7LtND1S2UV123SpX-14" parent="1" source="_wpr7LtND1S2UV123SpX-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-34" value="根据LP单查询SCP单" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_wpr7LtND1S2UV123SpX-33" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-35" value="返回SCP单信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_wpr7LtND1S2UV123SpX-33" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="259" y="458" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-38" value="SDP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="180" width="100" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-38">
+          <mxGeometry x="45" y="370" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-40" value="目的仓线路覆盖校验" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.1;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_wpr7LtND1S2UV123SpX-5" target="_wpr7LtND1S2UV123SpX-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="550" as="sourcePoint" />
+            <mxPoint x="520" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-41" value="返回校验结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="_wpr7LtND1S2UV123SpX-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="590" as="targetPoint" />
+            <mxPoint x="556" y="580" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-43" value="目的仓库存校验（剔除随箱礼）" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.1;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_wpr7LtND1S2UV123SpX-5" target="_wpr7LtND1S2UV123SpX-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="620" as="sourcePoint" />
+            <mxPoint x="694.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-44" value="返回校验结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="_wpr7LtND1S2UV123SpX-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="640" as="targetPoint" />
+            <mxPoint x="890" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-45" value="FUFILL" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="180" width="100" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_wpr7LtND1S2UV123SpX-45">
+          <mxGeometry x="44" y="480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-47" value="已下发履行的单据进行仓拦截" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-45" source="_wpr7LtND1S2UV123SpX-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-575" y="488.75700000000006" as="sourcePoint" />
+            <mxPoint x="48.5" y="488.75700000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-48" value="返回仓拦截结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="_wpr7LtND1S2UV123SpX-45" target="_wpr7LtND1S2UV123SpX-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-578" y="510.0899999999999" as="targetPoint" />
+            <mxPoint x="49" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-53" value="负卖订单取消原仓占用的AIC库存" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="_wpr7LtND1S2UV123SpX-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpr7LtND1S2UV123SpX-54" value="返回取消占用的结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="_wpr7LtND1S2UV123SpX-52" target="_wpr7LtND1S2UV123SpX-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="679" y="828" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
